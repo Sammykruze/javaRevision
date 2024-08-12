@@ -9,9 +9,9 @@ public class WhileLoop {
         while (true){
             System.out.println("Enter a digit: ");
             digit = input.nextInt();
-            if(digit >= 1000 && digit <= 1_000_000)
+            if(digit >= 900 && digit <= 1_000_000)
                 break;
-            System.out.println("Enter digit from 1000 - 1_000_000");
+            System.out.println("Enter digit from 900 - 1_000_000");
         }
         System.out.println("SUCCESSFUL");
 
